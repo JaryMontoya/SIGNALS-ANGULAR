@@ -22,3 +22,6 @@ export default class SignalEjemplo1Component {
     this.contador.update((contador)=> contador -1)
    }
 }
+
+export const signalEjemplo1 = () => {
+};

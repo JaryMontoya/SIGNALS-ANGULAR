@@ -15,7 +15,7 @@ import { MatInputModule } from '@angular/material/input'
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export default class SignalEjemplo3Component {
-  nombre = signal('Mauro');
+  nombre = signal('Jary');
   
   updateName(nombre: string) {
     this.nombre.set(nombre);
